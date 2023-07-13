@@ -13,4 +13,6 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Gallery"
-include ':app'
+include (":app:")
+include(":data")
+include(":domain")

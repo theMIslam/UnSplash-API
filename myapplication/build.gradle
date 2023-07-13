@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.gallery'
+    namespace 'com.example.myapplication'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.gallery"
+        applicationId "com.example.myapplication"
         minSdk 33
         targetSdk 33
         versionCode 1

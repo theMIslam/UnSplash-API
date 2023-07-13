@@ -52,6 +52,9 @@ android {
 
     dependencies {
 
+        implementation(project(":data"))
+        implementation(project(":domain"))
+
         // Kotlin
         implementation(Libraries.Coroutines.android)
 

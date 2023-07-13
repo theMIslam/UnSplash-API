@@ -45,7 +45,7 @@ dependencies {
 
     // Module
     //implementation(project(mapOf("path" to ":app")))
-    //implementation(project(":domain"))
+    implementation(project(":domain"))
 
     // Retrofit
     implementation(Libraries.Retrofit.retrofit)

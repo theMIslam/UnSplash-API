@@ -65,6 +65,11 @@ dependencies {
     ksp(Libraries.Room.compiler)
     implementation(Libraries.Room.ktx)
 
+    // Koin
+    implementation(Libraries.Koin.scope)
+    implementation(Libraries.Koin.koin)
+    implementation(Libraries.Koin.viewmodel)
+
     // Paging
     api(Libraries.Paging.runtime)
 

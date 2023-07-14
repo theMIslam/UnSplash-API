@@ -1,0 +1,1 @@
+package com.example.data.remote.apiservicesinterface GalleryApiService {}

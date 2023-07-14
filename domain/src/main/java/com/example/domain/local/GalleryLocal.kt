@@ -1,0 +1,1 @@
+package com.example.domain.localclass GalleryLocal(    val id: Long,    val bar: String)

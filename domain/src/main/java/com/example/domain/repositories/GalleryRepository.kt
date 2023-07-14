@@ -1,0 +1,1 @@
+package com.example.domain.repositoriesimport com.example.domain.local.GalleryLocalimport com.example.domain.utils.RemoteWrapperimport kotlinx.coroutines.flow.Flowinterface GalleryRepository {    fun fetchGallery(): RemoteWrapper<GalleryLocal>    fun getGallery(): Flow<List<GalleryLocal>>}

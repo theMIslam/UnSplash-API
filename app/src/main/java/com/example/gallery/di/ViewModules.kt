@@ -1,0 +1,1 @@
+package com.example.gallery.diimport org.koin.dsl.moduleval viewModules = module {   // viewModel { MainViewModel(get()) }}
